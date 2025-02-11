@@ -30,7 +30,9 @@ Once you have confirmed that the model is correctly running and detecting delive
 > It's highly recommended that you create a clone of an existing camera for detecting delivery logos so that you don't have multiple models trying to detect objects. It will also help with isolating alerts.
 
 In Blue Iris, after creating a clone of an existing camera, right-click and choose **Camera settings...**. Go to the **Alert** tab and check the box to **Confirm Alert with AI** then click the **AI Configuration** button.
+
 | Field | Value | Notes |
+| --- | --- | --- |
 | To confirm | amazon,dhl,fedex,ups,usps,uhaul | You can choose a subset of these if you don't want all |
 | To cancel | DoNotCancel | This lets BI keep checking images on a moving vehicle until it sees a logo |
 | Custom models | delivery | For best results, make sure you have turned off the default object detection, or use delivery,objects:0 |
