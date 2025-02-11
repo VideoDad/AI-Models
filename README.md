@@ -13,6 +13,7 @@ labels: *amazon, fedex, ups, usps, uhaul, dhl*<br/>
 | delivery.onnx | YOLOv5 NET | ObjectDetectionYOLOv5Net\custom-models |
 | delivery.pt | YOLOv8 | ObjectDetectionYOLOv8\custom-models |
 | delivery.onnx | YOLOv8 NET | _not implemented in CPAI_ |
+| delivery.pt | YOLO11 | _not yet implemented in CPAI_ |
 
 ### Instructions for use with CodeProject.AI
 Go to the CodeProject.AI Server Dashboard (localhost:32168) and click on InstallModules. Make sure the YOLO module that you want to use is installed. 
