@@ -37,7 +37,7 @@ In Blue Iris, after creating a clone of an existing camera, right-click and choo
 | To confirm | amazon,dhl,fedex,ups,usps,uhaul | You can choose a subset of these if you don't want all |
 | To cancel | DoNotCancel | This lets BI keep checking images on a moving vehicle until it sees a logo |
 | Custom models | delivery | For best results, make sure you have turned off the default object detection, or use delivery,objects:0 |
-| Mark as vehicle | amazon,dhl,fedex,ups,usps,uhaul | All the labels should be considered vehicles |
+| Mark as vehicle* | amazon,dhl,fedex,ups,usps,uhaul | All the labels should be considered vehicles. *This is a global setting (not per camera) now. Add these to the list of vehicle objects in the global AI settings. |
 | Use mainstream if available | Checked | Recommended for better detections and notifications |
 
 This work is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)<br/>
